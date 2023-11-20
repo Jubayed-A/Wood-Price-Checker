@@ -8,6 +8,7 @@
     tools:layout_editor_absoluteX="-7dp"
     tools:layout_editor_absoluteY="90dp">
 
+<!--  btnClick code here  -->
     <Button
         android:id="@+id/btnCheck"
         android:layout_width="200dp"
@@ -23,6 +24,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edInput"
         app:layout_constraintVertical_bias="0.0" />
 
+<!--Input code here -->
     <EditText
         android:id="@+id/edInput"
         android:layout_width="wrap_content"
@@ -37,6 +39,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+<!--Welcome text code here-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -53,6 +56,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.058" />
 
+<!--    out put text code here -->
     <TextView
         android:id="@+id/tvDisplay"
         android:layout_width="wrap_content"

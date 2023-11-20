@@ -12,13 +12,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // variable introduction
         val forInput = findViewById<EditText>(R.id.edInput)
         val forButton = findViewById<Button>(R.id.btnCheck)
         val forOutput = findViewById<TextView>(R.id.tvDisplay)
 
+        // btnClick button code here
         forButton.setOnClickListener {
             val wood = forInput.text.toString().trim().uppercase().firstOrNull()
 
+            // main code here
             val result = when(wood){
                 'O' -> "Oak = \$100"
                 'P' -> "Pine = \$300"
